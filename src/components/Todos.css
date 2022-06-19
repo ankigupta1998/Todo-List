@@ -1,0 +1,68 @@
+.todosContainer {
+  margin-top: 10px;
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 57vh;
+  overflow: scroll;
+  border-radius: 10px;
+}
+.todosContainer::-webkit-scrollbar {
+  display: none;
+}
+.singleTodoCon {
+  display: flex;
+  margin: 15px;
+  padding: 5px;
+  background-color: aliceblue;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px 1px hsl(229, 6%, 66%);
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.todoTitle {
+  display: flex;
+  text-align: left;
+  font-size: 19px;
+  text-transform: capitalize;
+  padding: 5px;
+  align-items: center;
+}
+.todoPriority {
+  width: 100%;
+  text-align: right;
+  font-size: 12px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dtCon {
+  display: flex;
+  padding: 5px;
+}
+
+.todoDate {
+  padding: 0px 5px;
+}
+
+.nextIcon {
+  cursor: pointer;
+  padding-top: 4px;
+}
+.nextIconCon :hover {
+  background-color: hsl(0, 0%, 86%);
+  border-radius: 10px;
+}

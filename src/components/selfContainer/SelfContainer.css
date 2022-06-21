@@ -35,7 +35,8 @@
   font-size: x-large;
   background-color: #fefefe;
   border-radius: 8px;
-  border: 1px solid lightblue;
+  border-top: 5px solid #add8e6;
+  border-right: 5px solid #add8e6;
 }
 .icon {
   cursor: pointer;
